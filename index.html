@@ -54,8 +54,8 @@
           <p>My terminal with eight tabs open. The popular alternative needs 115&nbsp;MB for the same job.</p>
         </div>
         <div class="stat">
-          <b>39 games</b>
-          <p>Live on one shared system I help maintain, with thousands of players connected at once.</p>
+          <b>60+ games</b>
+          <p>Server-side, shipped end to end &mdash; arcade, card, domino and casual multiplayer titles.</p>
         </div>
         <div class="stat">
           <b>ms &rarr; &micro;s</b>
@@ -110,11 +110,10 @@
           <h3># Backend Developer</h3>
           <p>Realtime multiplayer game servers &mdash; the part that keeps thousands of players connected at once without anyone noticing it.</p>
           <ul>
-            <li>Cut a lookup that runs on every request from milliseconds to tens of microseconds, by keeping its data close by instead of asking the database each time.</li>
+            <li>Moved game data from a remote database to a local one, cutting a per-round lookup from milliseconds to tens of microseconds &mdash; with my own migration tooling, no downtime and an automatic fallback.</li>
             <li>Built tools that play a game millions of times before release, so decisions rest on evidence rather than guesswork.</li>
-            <li>Kept per-title modules contained: the server checks each one at boot and refuses to start if it reaches outside its own directory.</li>
-            <li>Kept a live production system running on an old version of its runtime for years, with nothing quietly breaking along the way.</li>
-            <li>Brought AI-assisted workflows into day-to-day development &mdash; code generation, debugging and task automation &mdash; on a codebase that was already live.</li>
+            <li>Built the team&rsquo;s operations dashboard &mdash; deploys, rollback, config and log search &mdash; from first version through a rewrite in Go.</li>
+            <li>Brought AI-assisted development to a live codebase &mdash; guides and guardrails for seven repositories, three reusable agent skills &mdash; and used it to ship the migration and the rewrite.</li>
           </ul>
         </article>
         <article class="role">
